@@ -5,8 +5,7 @@ import java.util.ArrayList;
 public class Athlete {
     private int id ;
     private String nom ;
-    private ArrayList<Pays> lesPays;
-    private ArrayList<Participation> lesParticipations;
+    private ArrayList<Pays> lesPays ;
 
     public int getId() {
         return id;
@@ -30,13 +29,5 @@ public class Athlete {
 
     public void setLesPays(ArrayList<Pays> lesPays) {
         this.lesPays = lesPays;
-    }
-
-    public ArrayList<Participation> getLesParticipations() {
-        return lesParticipations;
-    }
-
-    public void setLesParticipations(ArrayList<Participation> lesParticipations) {
-        this.lesParticipations = lesParticipations;
     }
 }
