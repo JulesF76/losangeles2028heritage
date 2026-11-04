@@ -46,4 +46,9 @@ public class Pays {
         this.lesMedailles = lesMedailles;
         this.lesEpreuveCollectives = lesEpreuveCollectives;
     }
+
+    public Pays(int id, String nom) {
+        this.id = id;
+        this.nom = nom;
+    }
 }
