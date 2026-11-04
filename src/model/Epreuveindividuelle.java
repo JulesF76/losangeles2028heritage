@@ -1,6 +1,6 @@
 package model;
 
-public class Epreuveindividuelle {
+public class Epreuveindividuelle extends Epreuve {
     private double recordOlympique;
     private String unite;
 
