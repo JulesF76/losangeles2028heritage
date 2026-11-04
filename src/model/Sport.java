@@ -19,4 +19,9 @@ public class Sport {
     public void setNom(String nom) {
         this.nom = nom;
     }
+
+    public Sport(int id, String nom) {
+        this.id = id;
+        this.nom = nom;
+    }
 }

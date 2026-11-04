@@ -39,4 +39,10 @@ public class Medaille {
     public void setLesPays(ArrayList<Pays> lesPays) {
         this.lesPays = lesPays;
     }
+
+    public Medaille(int id, String nom, int nbPoints) {
+        this.id = id;
+        this.nom = nom;
+        this.nbPoints = nbPoints;
+    }
 }

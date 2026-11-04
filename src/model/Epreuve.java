@@ -35,6 +35,12 @@ public abstract class Epreuve {
         super();
     }
 
+    public Epreuve(int id, String nom) {
+        super();
+        this.id = id;
+        this.nom = nom;
+    }
+
     public Epreuve(int id, String nom, ArrayList<Sport> lesSports) {
         super();
         this.id = id;
