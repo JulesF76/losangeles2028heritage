@@ -1,9 +1,12 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Medaille {
     private int id ;
     private String nom ;
     private int nbPoints ;
+    private ArrayList<Pays> lesPays;
 
     public int getId() {
         return id;
@@ -27,5 +30,13 @@ public class Medaille {
 
     public void setNbPoints(int nbPoints) {
         this.nbPoints = nbPoints;
+    }
+
+    public ArrayList<Pays> getLesPays() {
+        return lesPays;
+    }
+
+    public void setLesPays(ArrayList<Pays> lesPays) {
+        this.lesPays = lesPays;
     }
 }

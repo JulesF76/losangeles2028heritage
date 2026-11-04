@@ -31,14 +31,14 @@ public abstract class Epreuve {
         this.lesSports = lesSports;
     }
 
+    public Epreuve() {
+        super();
+    }
+
     public Epreuve(int id, String nom, ArrayList<Sport> lesSports) {
         super();
         this.id = id;
         this.nom = nom;
         this.lesSports = lesSports;
-    }
-
-    public Epreuve() {
-        super();
     }
 }

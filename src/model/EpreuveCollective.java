@@ -1,6 +1,6 @@
 package model;
 
-public class EpreuveCollective {
+public class EpreuveCollective extends Epreuve{
     private int dureeMin ;
     private int nbTours ;
 
