@@ -7,6 +7,7 @@ public class Pays {
     private String nom ;
     private ArrayList<Medaille> lesMedailles;
     private ArrayList<EpreuveCollective> lesEpreuveCollectives;
+    private ArrayList<Athlete> lesAthletes;
 
     public int getId() {
         return id;
@@ -50,5 +51,13 @@ public class Pays {
     public Pays(int id, String nom) {
         this.id = id;
         this.nom = nom;
+    }
+
+    public ArrayList<Athlete> getLesAthletes() {
+        return lesAthletes;
+    }
+
+    public void setLesAthletes(ArrayList<Athlete> lesAthletes) {
+        this.lesAthletes = lesAthletes;
     }
 }
